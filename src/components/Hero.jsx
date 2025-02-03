@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants"
-import profilePic from "../assets/kevinRushProfile.png"
+import profilePic from "../assets/PlaceholderProfile.png"
 import { motion } from "framer-motion"
 
 const container= (delay) => ({
@@ -35,7 +35,7 @@ const Hero = () => {
               variants={container(0.6)}
               initial="hidden"
               animate="visible"
-             className="my-2 max-w-xl py-6- font-light tracking-tighter">
+             className="my-2 max-w-xl py-6 font-light tracking-tighter">
               {HERO_CONTENT}
             </motion.p>
           </div>
