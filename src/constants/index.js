@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 
 export const HERO_CONTENT = `I'm a passionate and driven aspiring programmer eager to expand my skills through hands-on experience in an internship or apprenticeship. With a strong desire to learn, adapt, and contribute to real-world projects, I'm excited to collaborate with professionals, tackle challenges, and grow in a dynamic environment. Let's connect and explore opportunities to innovate together!`;
@@ -36,11 +36,11 @@ export const PROJECTS = [
     technologies: ["React", "TailwindCSS"],
   },
   {
-    title: "My first portfolio website",
+    title: "Basic JavaScript Calculator",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS",],
+      "A simple calculator built with HTML, CSS, and JavaScript that performs basic arithmetic operations.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Python file mover",
